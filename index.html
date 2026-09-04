@@ -1,79 +1,97 @@
-<head>
-  <meta charset="UTF-8">
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="google-site-verification" content="01owLilS2Taa5EVEEATifhGc2j2AvzFbuf9BDO1kUNA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="THUNDERBOLT — The electric storm. Explore the exterior, performance, interior, and technology of a 1,024 horsepower machine." />
+    <title>THUNDERBOLT — The Electric Storm</title>
+   <link rel="stylesheet" href="./thunderbolt.css">
+<script src="./thunderbolt.js"></script>
+  </head>
+</head>
+  
+  <meta charset="UTF-8" />
 
-  <!-- Google Search Console Verification -->
-  <meta
-    name="google-site-verification"
-    content="01owLilS2Taa5EVEEATifhGc2j2AvzFbuf9BDO1kUNA"
-  >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Mobile Responsive -->
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
-  <!-- SEO -->
   <meta
     name="description"
     content="Explore THUNDERBOLT — a futuristic electric sports car concept featuring 1,024 horsepower, advanced technology, performance, exterior design, interior, and automotive engineering."
-  >
+  />
 
   <meta
     name="keywords"
     content="Thunderbolt car portfolio, electric sports car, futuristic car, sports car design, automotive engineering, electric car concept, car technology"
-  >
+  />
 
-  <meta name="author" content="Suchithra">
-  <meta name="robots" content="index, follow">
+  <meta name="author" content="Suchithra" />
 
-  <!-- Canonical URL -->
-  <link
-    rel="canonical"
-    href="https://thunderbolt.bbroot.com/"
-  >
+  <meta name="robots" content="index, follow" />
 
-  <!-- Page Title -->
+  <link rel="canonical" href="https://thunderbolt.bbroot.com/" />
+
   <title>THUNDERBOLT — The Electric Storm | Electric Sports Car</title>
 
-  <!-- Open Graph / Social Media -->
-  <meta
-    property="og:title"
-    content="THUNDERBOLT — The Electric Storm"
-  >
+  <!-- Social media preview -->
+  <meta property="og:title" content="THUNDERBOLT — The Electric Storm" />
 
   <meta
     property="og:description"
     content="Discover the futuristic THUNDERBOLT electric sports car concept — performance, technology, design and automotive engineering."
-  >
+  />
 
-  <meta
-    property="og:url"
-    content="https://thunderbolt.bbroot.com/"
-  >
+  <meta property="og:url" content="https://thunderbolt.bbroot.com/" />
 
-  <meta
-    property="og:type"
-    content="website"
-  >
+  <meta property="og:type" content="website" />
 
-  <!-- Google AdSense -->
-  <script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1433208593620070"
-    crossorigin="anonymous">
-  </script>
+  <link rel="stylesheet" href="./thunderbolt.css" />
 
-  <!-- CSS -->
-  <link
-    rel="stylesheet"
-    href="./thunderbolt.css"
-  >
-
-  <!-- JavaScript - load only once -->
-  <script
-    src="./thunderbolt.js"
-    defer>
-  </script>
-
+  <script src="./thunderbolt.js" defer></script>
 </head>
+  <body>
+    <header class="site-header" data-testid="site-navigation">
+      <div class="nav-shell">
+        <button class="brand-button" id="brand-home" data-testid="brand-home-button" aria-label="Back to top"><span class="brand-mark" data-testid="brand-mark">ϟ</span><span data-testid="brand-name">THUNDERBOLT</span></button>
+        <nav class="desktop-nav" aria-label="Portfolio chapters" data-testid="desktop-chapter-navigation">
+          <button data-scroll="exterior" data-testid="nav-exterior-button"><small>01</small> Exterior</button>
+          <button data-scroll="performance" data-testid="nav-performance-button"><small>02</small> Performance</button>
+          <button data-scroll="interior" data-testid="nav-interior-button"><small>03</small> Interior</button>
+          <button data-scroll="technology" data-testid="nav-technology-button"><small>04</small> Technology</button>
+        </nav>
+        <div class="nav-actions"><button class="button button-primary header-cta" data-open-inquiry data-testid="header-request-drive-button">Request a drive <span>→</span></button><button class="menu-toggle" id="menu-toggle" data-testid="mobile-menu-toggle-button" aria-label="Open menu">☰</button></div>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" hidden data-testid="mobile-chapter-menu">
+      <div class="mobile-menu-intro"><p class="eyebrow" data-testid="mobile-menu-eyebrow">Navigate the storm</p><p data-testid="mobile-menu-description">Four chapters. One uncompromised electric machine.</p></div>
+      <nav aria-label="Mobile portfolio chapters" data-testid="mobile-chapter-navigation"><button data-scroll="exterior" data-testid="mobile-nav-exterior-button">Exterior <small>01</small></button><button data-scroll="performance" data-testid="mobile-nav-performance-button">Performance <small>02</small></button><button data-scroll="interior" data-testid="mobile-nav-interior-button">Interior <small>03</small></button><button data-scroll="technology" data-testid="mobile-nav-technology-button">Technology <small>04</small></button></nav>
+      <button class="button button-primary mobile-cta" data-open-inquiry data-testid="mobile-request-drive-button">Request a drive <span>→</span></button>
+    </div>
+
+    <main data-testid="thunderbolt-portfolio-page">
+      <section class="hero" data-testid="hero-section">
+        <img class="hero-image" src="https://customer-assets-v7afamib.emergentagent.net/job_electric-storm/artifacts/ie3bqo97_car%202.0.webp" alt="Yellow Thunderbolt electric supercar" data-testid="hero-vehicle-image" />
+        <div class="hero-gradient hero-gradient-left" data-testid="hero-left-gradient"></div><div class="hero-gradient hero-gradient-bottom" data-testid="hero-bottom-gradient"></div><div class="hero-word" data-testid="hero-background-word">STORM</div>
+        <div class="content hero-content"><p class="eyebrow" data-testid="hero-eyebrow">01 / Electric performance, redefined</p><h1 data-testid="hero-title">The electric<br /><em>storm</em> is here.</h1><p class="hero-description" data-testid="hero-description">A 1,024 horsepower machine engineered for the space between control and chaos.</p><div class="hero-actions" data-testid="hero-actions"><button class="button button-primary" data-open-inquiry data-testid="hero-request-drive-button">Request a drive <span>→</span></button><button class="text-button" data-scroll="exterior" data-testid="hero-explore-specs-button"><b>↘</b> Explore the machine</button></div></div>
+        <div class="scroll-cue" data-testid="hero-scroll-cue"><i></i> Scroll to discover</div>
+      </section>
+
+      <section class="chapter section-surface" id="exterior" data-testid="exterior-section"><div class="content"><div class="section-header" data-testid="exterior-section-header"><div><p class="eyebrow" data-testid="exterior-eyebrow">01 / Exterior</p><h2 data-testid="exterior-title">Cut from<br /><span>the storm.</span></h2></div><p data-testid="exterior-description">A silhouette that turns heads before the motors make a sound. Select a detail to inspect the intent behind every surface.</p></div><div class="exterior-grid" data-testid="exterior-content-grid"><div class="exterior-image-panel" data-testid="exterior-image-panel"><img src="https://images.unsplash.com/photo-1559583753-313c77e6ba94?auto=format&fit=crop&w=1400&q=86" alt="Thunderbolt front light signature" data-testid="exterior-detail-image" /><div class="image-shade"></div><div class="image-caption"><div><p class="eyebrow" id="exterior-active-label" data-testid="exterior-active-label">Selected / Active grille</p><p id="exterior-active-description" data-testid="exterior-active-description">Aero shutters open only when the thermal map calls for it.</p></div><span data-testid="exterior-image-index">TB / 001</span></div></div><div class="feature-list" id="exterior-feature-list" data-testid="exterior-feature-list"></div></div></div></section>
+
+      <section class="chapter performance" id="performance" data-testid="performance-section"><div class="storm-texture"></div><div class="content"><div class="section-header" data-testid="performance-section-header"><div><p class="eyebrow" data-testid="performance-eyebrow">02 / Performance</p><h2 data-testid="performance-title">Numbers<br /><em>with teeth.</em></h2></div><p data-testid="performance-description">The data is impressive. The feeling is the point. Tap a metric to open the engineering behind the figure.</p></div><div class="metrics-grid" id="metrics-grid" data-testid="performance-metrics-grid"></div></div></section>
+
+      <section class="chapter section-surface" id="interior" data-testid="interior-section"><div class="content"><div class="section-header" data-testid="interior-section-header"><div><p class="eyebrow" data-testid="interior-eyebrow">03 / Interior</p><h2 data-testid="interior-title">Your space<br /><span>to attack.</span></h2></div><p data-testid="interior-description">The cockpit is not a cabin. It is a launch position, wrapped in precision materials and information.</p></div><div class="cockpit" data-testid="interior-cockpit-panel"><img src="https://images.unsplash.com/photo-1471174617910-3e9c04f58ff5?auto=format&fit=crop&w=2200&q=88" alt="Premium digital cockpit and steering wheel" data-testid="interior-cockpit-image" /><div class="image-shade"></div><div class="system-label" data-testid="interior-system-label"><i></i> Cockpit / live telemetry</div><div id="interior-hotspots"></div><div class="interior-active"><p class="eyebrow" id="interior-active-label" data-testid="interior-active-overline">Selected / Digital cockpit</p><strong data-testid="interior-active-title">Precision, within reach.</strong></div></div></div></section>
+
+      <section class="chapter technology" id="technology" data-testid="technology-section"><div class="content"><div class="section-header" data-testid="technology-section-header"><div><p class="eyebrow" data-testid="technology-eyebrow">04 / Technology</p><h2 data-testid="technology-title">The future<br /><em>has reflexes.</em></h2></div><p data-testid="technology-description">Thunderbolt does not wait for the future. It senses it, calculates it, and moves before the moment arrives.</p></div><div class="tech-grid" id="tech-grid" data-testid="technology-card-grid"></div><div class="tech-active" id="tech-active" data-testid="technology-active-panel"></div></div></section>
+
+      <section class="closing-cta" data-testid="closing-cta-section"><div class="content closing-content"><div><p data-testid="closing-cta-eyebrow">Build slot / now open</p><h2 data-testid="closing-cta-title">Ready to feel<br />the voltage?</h2></div><button class="button button-dark" data-open-inquiry data-testid="footer-request-drive-button">Request a drive <span>→</span></button></div></section>
+    </main>
+
+    <footer data-testid="site-footer"><div class="content footer-content"><p data-testid="footer-copyright">© 2026 Thunderbolt Motors</p><p data-testid="footer-status"><i></i> All systems nominal</p><p data-testid="footer-location">Designed for the electric age / 001</p></div></footer>
+
+    <div class="modal-backdrop" id="request-drive-modal" hidden data-testid="request-drive-dialog"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="request-drive-title"><button class="modal-close" id="modal-close" data-testid="request-drive-close-button" aria-label="Close request form">×</button><div class="modal-heading"><p class="eyebrow" data-testid="request-drive-dialog-eyebrow">Transmission / request a drive</p><h2 id="request-drive-title" data-testid="request-drive-dialog-title">Enter the storm.</h2><p data-testid="request-drive-dialog-description">Leave your signal. A Thunderbolt specialist will coordinate your private drive session.</p></div><form id="request-drive-form" data-testid="request-drive-form"><div class="form-grid"><label data-testid="request-drive-name-label">Full name<input id="inquiry-name" name="name" required minlength="2" placeholder="Your name" data-testid="request-drive-name-input" /></label><label data-testid="request-drive-email-label">Email<input id="inquiry-email" name="email" required type="email" placeholder="you@domain.com" data-testid="request-drive-email-input" /></label><label data-testid="request-drive-phone-label">Phone<input id="inquiry-phone" name="phone" required minlength="7" type="tel" placeholder="+1 000 000 0000" data-testid="request-drive-phone-input" /></label><label data-testid="request-drive-date-label">Preferred date<input id="inquiry-date" name="preferred_date" required type="date" data-testid="request-drive-date-input" /></label><label class="full-width" data-testid="request-drive-notes-label">What are you looking for?<textarea id="inquiry-notes" name="notes" placeholder="Tell us what pulls you toward Thunderbolt..." data-testid="request-drive-notes-input"></textarea></label></div><div class="modal-footer"><p id="form-message" role="status" data-testid="request-drive-form-message"></p><button class="button button-primary" type="submit" data-testid="request-drive-submit-button">Send my signal <span>→</span></button></div></form></div></div>
+    <div class="toast" id="toast" role="status" data-testid="success-toast"></div>
+    <script src="/thunderbolt.js"></script>
+  </body>
+</html>
